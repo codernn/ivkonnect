@@ -1,6 +1,33 @@
-.nav.list-inline li a{
-    color: white;
-}
 .navbar-brand{
-    font-size: 50px !important;
+    font-size: 40px !important;
+    padding-left:50px;
+}
+.navbar-nav > li{
+    padding-left:20px;
+    padding-right:20px;
+}
+.parallax {
+    background-image: url("../../../assets/parallax.jpg");
+    height: 700px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.content{
+    position: absolute;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+h2{
+    color: chartreuse;
+    font-size: 50px;
+    text-align: center;
+}
+.content-l1{
+    color: chartreuse;
+    text-align: center;
 }
