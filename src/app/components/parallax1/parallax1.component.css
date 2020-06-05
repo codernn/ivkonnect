@@ -1,0 +1,25 @@
+.parallax {
+    background-image: url("../../../assets/parallax.jpg");
+    height: 320px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.content{
+    position: absolute;
+  left: 50%;
+  top: 40%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+h2{
+    color: chartreuse;
+    font-size: 50px;
+    text-align: left;
+}
+.content-l1{
+    color: chartreuse;
+    text-align: left;
+}

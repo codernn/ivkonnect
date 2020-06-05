@@ -2,6 +2,10 @@ h1{
     text-align: center;
     font-family: fantasy;
 }
+.card-title{
+    overflow: hidden;
+    white-space: nowrap;
+}
 .card-img-overlay{
     position: absolute;
   left: 50%;
@@ -16,4 +20,8 @@ h1{
 }
 .card:hover{
     transform: scale(1.2);
+}
+.card-deck{
+        margin-left: 2rem;
+        margin-right: 2rem;
 }

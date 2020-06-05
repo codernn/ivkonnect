@@ -1,35 +1,27 @@
-<nav class="navbar navbar-expand-sm bg-light navbar-light fixed-top">
-  <span class="navbar-brand mb-0 h1">IVKonnect</span>
+<nav class="navbar navbar-expand-sm bg-light navbar-light"> 
+  <!-- fixed-top removed -->
+  <a class="navbar-brand mb-0 h1">IVKonnect</a>
   <ul class="nav navbar-nav ml-auto">
     <li class="nav-item active">
-      <a class="nav-link" href="#">Home</a>
+      <a class="nav-link" routerLink="/">Home</a>
     </li>
     <li class="nav-item active">
-      <a class="nav-link" href="#">Solutions</a>
-    </li>
-    
-    <li class="nav-item active">
-      <a class="nav-link" href="#">About Us</a>
+      <a class="nav-link" routerLink="solutions">Solutions</a>
     </li>
     <li class="nav-item active">
-      <a class="nav-link" href="#">Products</a>
+      <a class="nav-link"><app-dropdown></app-dropdown></a>
     </li>
     <li class="nav-item active">
-      <a class="nav-link" href="#">FAQs</a>
+      <a class="nav-link" routerLink=about>About Us</a>
     </li>
     <li class="nav-item active">
-      <a class="nav-link" href="#">Contact Us</a>
+      <a class="nav-link" routerLink="products">Products</a>
+    </li>
+    <li class="nav-item active">
+      <a class="nav-link" routerLink='fag'>FAQs</a>
+    </li>
+    <li class="nav-item active">
+      <a class="nav-link" routerLink="contact">Contact Us</a>
     </li>
   </ul>
 </nav>
-<div class="parallax">
-  <div class="content">
-    <h2>Business Consulting Services</h2>
-    <br>
-    <p class="content-l1">Business is one the world’s best business counseling firm. We assist globas
-      pioneers with their association’s most basic issues and opportunites
-    </p>
-    <br>
-    <button type="button" class="btn btn-outline-info">Learn More</button>
-  </div>
-</div>

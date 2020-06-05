@@ -1,0 +1,11 @@
+hr.solid{
+    border-top: 5px solid gold;
+}
+.jumbotron {
+    background-image: url("../../../assets/parallax.jpg");
+    height: 900px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
