@@ -1,18 +1,21 @@
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<div>
 <nav class="navbar navbar-expand-sm bg-light navbar-light"> 
   <!-- fixed-top removed -->
-  <a class="navbar-brand mb-0 h1">IVKonnect</a>
+  <a class="navbar-brand mb-0 h1" routerLink="/">IVKonnect</a>
   <ul class="nav navbar-nav ml-auto">
     <li class="nav-item active">
       <a class="nav-link" routerLink="/">Home</a>
+    </li>
+    <li class="nav-item active">
+      <a class="nav-link" routerLink=about>About Us</a>
     </li>
     <li class="nav-item active">
       <a class="nav-link" routerLink="solutions">Solutions</a>
     </li>
     <li class="nav-item active">
       <a class="nav-link"><app-dropdown></app-dropdown></a>
-    </li>
-    <li class="nav-item active">
-      <a class="nav-link" routerLink=about>About Us</a>
     </li>
     <li class="nav-item active">
       <a class="nav-link" routerLink="products">Products</a>
@@ -25,3 +28,4 @@
     </li>
   </ul>
 </nav>
+</div>

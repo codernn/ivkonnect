@@ -10,7 +10,7 @@
   .dropdown-content {
     display: none;
     position: absolute;
-    background-color: white;
+    background-color: #f8f9fa;
     min-width: 240px;
     z-index: 1;
   }
@@ -21,9 +21,14 @@
     text-decoration: none;
     display: block;
   }
-  
+  .spacing{
+    height: 33px;
+    border-bottom-style: solid;
+    border-bottom-color: #0274be;  
+  }
   .dropdown-content a:hover {color: #0274be;}
   
   .dropdown:hover .dropdown-content {display: block;}
+  .dropdown-coontent:hover .dropdown-content {display: block;}
 
   .dropdown a:hover {color: #0274be;}

@@ -31,6 +31,9 @@ import { CollapseModule } from 'ngx-bootstrap/collapse';
 import { FagcollapseComponent } from './components/fagcollapse/fagcollapse.component';
 import { DropdownComponent } from './components/dropdown/dropdown.component';
 import { SoftwareComponent } from './components/software/software.component';
+import { CardcarouselComponent } from './components/cardcarousel/cardcarousel.component';
+import { Parallax2Component } from './components/parallax2/parallax2.component';
+import { FooterComponent } from './components/footer/footer.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -56,7 +59,10 @@ import { SoftwareComponent } from './components/software/software.component';
     SolcardsComponent,
     FagcollapseComponent,
     DropdownComponent,
-    SoftwareComponent
+    SoftwareComponent,
+    CardcarouselComponent,
+    Parallax2Component,
+    FooterComponent
   ],
   imports: [
     BrowserModule,

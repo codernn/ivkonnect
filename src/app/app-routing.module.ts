@@ -17,7 +17,7 @@ const routes: Routes = [
   { path: 'solutions', component:SolutionsComponent},
   { path: 'fag', component: FagComponent},
   { path: 'contact', component:ContactComponent},
-  { path: 'software', component: SoftwareComponent}
+  { path: 'software', component: SoftwareComponent},
 ];
 
 @NgModule({
